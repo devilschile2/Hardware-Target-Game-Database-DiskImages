@@ -4,3 +4,5 @@ In this project the objective is to keep a database for disk based systems that 
 The intention is to update the database as those files are verified and added to the reference databases. In the mean time those will do.
 
 Take into account that large file integrity verification takes longer than with small files, so please be patient. A valid strategy could be to run validation system by system, across several days.
+
+Renaming will be performed usin no-intro convention, available in [No-Intro](https://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).pdf)
