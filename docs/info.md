@@ -1,7 +1,7 @@
 # How to build a library of games
 
 ## 1. Obtain the files
-  Files can be obtained through multiple sources, like torrents, direct download using metalink... The download descriptors, can be fed to download programs like deluge, or aria. If you use something like a raspberry pi, the use of unattended execution of command using [nohup](https://en.wikipedia.org/wiki/Nohup) is your friend to achieve low power consumption when making your downloads. In lay man's terms, you can perform your downloads using a raspberry pi and do not have to be connected checking the download process all the time. 
+  Files can be obtained through multiple sources, like torrents, direct download using metalink... The download descriptors, can be fed to download programs like deluge, or aria. If you use something like a raspberry pi, the use of unattended execution of command using a Ssh connection and [nohup](https://en.wikipedia.org/wiki/Nohup) is your friend to achieve low power consumption when making your downloads. In lay man's terms, you can perform your downloads using a raspberry pi and do not have to be connected checking the download process all the time. 
 
 ## 2. Checking everything
   It is important that once you got hold of the files you need you chekc that they are ok. This can be performed using the script checkDownloadIntegrity, which takes a metalink file and checks the hashes of every file. Note that this step is time consuming, but totally worth it. In this step you know that the files you have are as the provider intended, which does not necessarily mean that they are correct.
