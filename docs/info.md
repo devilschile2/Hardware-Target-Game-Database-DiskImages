@@ -7,7 +7,7 @@
   It is important that once you got hold of the files you need you chekc that they are ok. This can be performed using the script checkDownloadIntegrity, which takes a metalink file and checks the hashes of every file. Note that this step is time consuming, but totally worth it. In this step you know that the files you have are as the provider intended, which does not necessarily mean that they are correct.
 
 ## 3. Importing and checking for bad dumps
- SMDB or no-intro dat files can be used to check the file dump is correct, and then import them into your library. Those scripts are already available in tools like Retronas, or directly using the [Hardware-Target-Game-Database](https://github.com/frederic-mahe/Hardware-Target-Game-Database).
+ SMDB or no-intro dat files can be used to check the file dump is correct, and then import them into your library. Those scripts are already available in tools like [Retronas](https://github.com/danmons/retronas), or directly using the [Hardware-Target-Game-Database](https://github.com/frederic-mahe/Hardware-Target-Game-Database).
  
  ## 4. Saving space
   SMDB files are great for storing files in community checked standard locations, but they do not support symblinks, probably due to their initial intention not being that. Running the dedupLibrary script will detect those duplicates, and replace them with operating system level symblinks, that will save storage. 
@@ -22,4 +22,4 @@
 Using this method, you will be able to download all your files using an unattended low power consumption solution.  Then you cna check the integrity of the downloaded content, and after that you will be able to check for bad dumps. Once every file is correct you can compress and dedup everything to save space, even though this last objective can be achieved by using a fielsystem like btrfs that can provide this functionality out of the box. 
 
 
-All the software needed is available in Retronas, so that would be the recommended way to go.
+All the software needed is available in [Retronas](https://github.com/danmons/retronas), so that would be the recommended way to go. If you have your retronas instlalation in something like a Raspberry Pi, changes are that you have everything you need already in place.
