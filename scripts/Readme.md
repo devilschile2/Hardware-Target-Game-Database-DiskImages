@@ -1,6 +1,6 @@
 # Scripts to perform some useful tasks
 
-  Some of this scripts are most useful when compression or deduplication is not run under the hood of the filesystem, like when you use Brtfs. You can free some storage by using those scripts.
+  Some of this scripts are most useful when compression or deduplication is not run under the hood of the filesystem, like when you use Brtfs. You can free some storage by using those scripts. Those tasks can help build a game library that later can be made available using solutions like [retronas](https://github.com/danmons/retronas) or [openmediavault](https://www.openmediavault.org/).
 
 
 ## checkDownloadIntegrity
