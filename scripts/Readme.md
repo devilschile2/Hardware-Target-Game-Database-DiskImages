@@ -1,4 +1,4 @@
-# Scripts to perform some useful actions
+# Scripts to perform some useful tasks
 
   Some of this scripts are most useful when compression or deduplication is not run under the hood of the filesystem, like when you use Brtfs. You can free some storage by using those scripts.
 
