@@ -1,5 +1,7 @@
 # How to build a library of games
-
+  This is a short tutorial on how to use the tools available to build oyur own game library. Some knowledge is needed to execute commands via a remote conneciton, but if you continue, you will be able to download your files and check the integrity and correctness of the library, all using a low power consumption device like te Raspberry Pi, and using tools available in solutions like [Retronas](https://github.com/danmons/retronas).
+  
+  
 ## 1. Obtain the files
   Files can be obtained through multiple sources, like torrents, direct download using metalink... The download descriptors, can be fed to download programs like deluge, or aria. If you use something like a raspberry pi, the use of unattended execution via a Ssh connection and the command [nohup](https://en.wikipedia.org/wiki/Nohup) are your friends in order to have a  low power consumption when making your downloads. In lay man's terms, you can perform your downloads using a raspberry pi and do not have to be connected checking the download process all the time. 
 
