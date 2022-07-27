@@ -6,6 +6,8 @@
 ## checkDownloadIntegrity
   Uses a metalink file to check the local files available, and checks their integrity. Once the downloaded files are checked further actions can be performed, like immporting them using smdb files and so on.
 
+  A lightweight downloader that supports metalink files is [aria](https://aria2.github.io/)
+  
 
 ## convert2metalink
 
