@@ -5,6 +5,6 @@ The intention is to update the database as those files are developed. verified a
 
 Take into account that large file integrity verification takes longer than with small files, so please be patient. A valid strategy could be to run validation system by system, across several days.
 
-Renaming will be performed usin no-intro convention, available in [No-Intro](https://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).pdf)
+Renaming will be performed using no-intro convention, available in [No-Intro](https://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).pdf)
 
 Some useful scripts are provided for managing roms in the scripts folder.
