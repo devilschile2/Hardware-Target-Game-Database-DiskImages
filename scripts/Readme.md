@@ -17,7 +17,8 @@
 
 ## dedupLibrary
 
-  Given a folder, converts duplicate files into symblinks, preserving only one copy of the file.
+  Given a folder, converts duplicate files into symblinks, preserving only one copy of the file. If previously hardlinks are used to store the files, no space gain is saved, but if hardlinks are not used, it provides similar space savings.
+  The hardlink command may provide the desired functionality using hardlinks instead of soft links. Hardlinks are low level links indistiguishable from regular files.
 
  
 ## unzipFilesInFolder
