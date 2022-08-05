@@ -14,9 +14,9 @@
  ## 4. Saving space
   SMDB files are great for storing files in community checked standard locations, but they do not support symblinks, probably due to their initial intention not being that. Running the dedupLibrary script will detect those duplicates, and replace them with operating system level symblinks, that will save storage. 
 
-  On top of that, if you are not using filesystems like btrfs, that can use compression, zipping some libraries can be another task that can help save storage. Do not compress disk image files, as the compression makes the access to such resources slower than necessary. Also note that zipping the files will change their hash, so you will not be able to use smdb databases to check for errors and so on. If you want to use compression on each file I recommend to perform the import of the files using the databases, and then use compression on the library. You can now build your own smdb databes by using the tools provided in [Hardware-Target-Game-Database](https://github.com/frederic-mahe/Hardware-Target-Game-Database) so that you don't have to be unzipping and then zipping everythng when you want to run a check of your library.
+  On top of that, if you are not using filesystems like btrfs, that can use compression, zipping some libraries can be another task that can help save storage. Do not compress disk image files, as the compression makes the access to such resources slower than necessary. Also note that zipping the files will change their hash, so you will not be able to use smdb databases to check for errors and so on. If you want to use compression on each file I recommend to perform the import of the files using the databases, and then use compression on the library. You can now build your own smdb databases by using the tools provided in [Hardware-Target-Game-Database](https://github.com/frederic-mahe/Hardware-Target-Game-Database) so that you don't have to be unzipping and then zipping everythng when you want to run a check of your library.
   
-  Note that using btrfs filesystems, you can achieve dedupliation and compression transparently, making all those tasks easier, but delegating this the complexity in the filesystem, that may result in a performance hit. 
+  Note that using btrfs filesystems, you can achieve dedupliation and compression transparently, making all those tasks easier, but delegating this the complexity in the filesystem, that may result in a performance hit. So far I found no issues due to this matter using a Raspberry Pi3 for my NAS, and streaming both roms and CDs, but result may vary depending on your setup and needs.
   
 ## 5. Share everything
   The use of services like Samba or Nfs, available in Retronas and openmediavault for instance, can make your life much easier as you can share all the file and libraries across your local network, making them available to any system like MISTer or Batocera via the use of network shares and symblinks, which if you are using Retronas will be handled automatically, simplifying all the process making it trivial. 
@@ -24,10 +24,10 @@
  
 ## Conclusion 
 
-Using this method, you will be able to download all your files using an unattended low power consumption solution.  Then you cna check the integrity of the downloaded content, and after that you will be able to check for bad dumps. Once every file is correct you can compress and dedup everything to save space, even though this last objective can be achieved by using a fielsystem like btrfs that can provide this functionality out of the box. 
+Using this method, you will be able to download all your files using an unattended low power consumption solution. Then you can check the integrity of the downloaded content, and after that you will be able to check for bad dumps. Once every file is correct you can compress and dedup everything to save space, even though this last objective can be achieved by using a fielsystem like btrfs that can provide this functionality out of the box. 
 
 
-All the software needed is available in [Retronas](https://github.com/danmons/retronas), so that would be the recommended way to go. If you have your retronas instlalation in something like a Raspberry Pi, changes are that you have everything you need already in place.
+All the software needed is available in [Retronas](https://github.com/danmons/retronas), so that would be the recommended way to go. If you have your Retronas installation in something like a Raspberry Pi, changes are that you have everything you need already in place.
 
 
 Enjoy!!
