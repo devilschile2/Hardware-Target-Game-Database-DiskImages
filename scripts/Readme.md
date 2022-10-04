@@ -7,7 +7,7 @@
 ## checkDownloadIntegrity
   Uses a metalink file to check the local files available, and checks their integrity. Once the downloaded files are checked, further actions can be performed, like importing them using smdb files and so on.
 
-  A lightweight downloader that supports metalink files is [aria](https://aria2.github.io/)
+  A lightweight downloader that supports metalink files is [aria2](https://aria2.github.io/)
   
 
 ## convert2metalink
@@ -17,7 +17,7 @@
 
 ## dedupLibrary
   [deprecated]
-  Superseeded by Btrfs deduplication and hardlink command
+  Superseded by Btrfs deduplication and hardlink command
   
   Given a folder, converts duplicate files into symblinks, preserving only one copy of the file. If previously hardlinks are used to store the files, no space gain is saved, but if hardlinks are not used, it provides similar space savings.
   The hardlink command may provide the desired functionality using hardlinks instead of soft links. Hardlinks are low level links indistiguishable from regular files.
