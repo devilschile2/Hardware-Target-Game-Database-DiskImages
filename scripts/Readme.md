@@ -16,9 +16,12 @@
 
 
 ## dedupLibrary
-
+  [deprecated]
+  Superseeded by Btrfs deduplication and hardlink command
+  
   Given a folder, converts duplicate files into symblinks, preserving only one copy of the file. If previously hardlinks are used to store the files, no space gain is saved, but if hardlinks are not used, it provides similar space savings.
   The hardlink command may provide the desired functionality using hardlinks instead of soft links. Hardlinks are low level links indistiguishable from regular files.
+  
 
 ## cuebin2iso.sh
   Given a cue file converts bin/cue files to iso format. PS2 OPL does not support cue/bin file format so conversion is required.
