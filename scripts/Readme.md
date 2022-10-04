@@ -24,7 +24,7 @@
   Given a cue file converts bin/cue files to iso format. PS2 OPL does not support cue/bin file format so conversion is required.
 
 ## cuebin2isoFolder.sh
-  Given a folder converts the  bin/cue files to iso format. PS2 OPL does not support cue/bin file format so conversion is required.
+  Given a folder converts the bin/cue files in that folder to iso format. PS2 OPL does not support cue/bin file format so conversion is required.
  
 ## unzipFilesInFolder
 
