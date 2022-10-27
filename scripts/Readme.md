@@ -45,6 +45,7 @@
   
 ## systemControlApi
  
-  Creates a rest-Api where you can perform restart/shutdown actions for your retronas. No user control is made so use it at your own risk.
+  Creates a rest-api where you can perform restart/shutdown actions for your retronas. The api can be invoked using a standard rest-api client in a smart-phone, like [Pocket Postman] (https://play.google.com/store/apps/details?id=com.app.restclient&gl=ES)
+  No user control is made so use it at your own risk.
   
   
