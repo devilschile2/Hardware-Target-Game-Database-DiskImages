@@ -38,6 +38,11 @@
 
   Zips all the files in a folder, each in it's own zip.
   
+## sendNotification.sh
+
+  Sends a notification over telegram. Can be used to notify when a lengthy task is finished, like a download, an import...
+  The bot token hast to be configured.
+  
 ## systemControlApi
  
   Creates a rest-Api where you can perform restart/shutdown actions for your retronas. No user control is made so use it at your own risk.
