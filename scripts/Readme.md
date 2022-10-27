@@ -37,3 +37,9 @@
 ## zipFilesInFolder
 
   Zips all the files in a folder, each in it's own zip.
+  
+## systemControlApi
+ 
+  Creates a rest-Api where you can perform restart/shutdown actions for your retronas. No user control is made so use it at your own risk.
+  
+  
