@@ -6,6 +6,6 @@ Presumably, as those consoles get hacked, these files will become obsolete, but 
 
 Systems available:
 
-	Mega drive Mini 2
-	TurboGrafx/PcEngine Mini
+	· Mega drive Mini 2
+	· TurboGrafx/PcEngine Mini
 
