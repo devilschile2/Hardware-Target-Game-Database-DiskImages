@@ -5,7 +5,7 @@ As most of the games are already available in previous releases, it is trivial t
 Presumably, as those consoles get hacked, these files will become obsolete, but in the mean time, they can be a nice way to have the collection in your gaming setup.
 
 Systems available:
-	Mega drive Mini 2.
-	
+
+	Mega drive Mini 2
 	TurboGrafx/PcEngine Mini
 
