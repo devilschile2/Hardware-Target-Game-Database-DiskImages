@@ -1,2 +1,2 @@
 # Manuals
-The Hash codes for the manuals are stored in this folder
+The Smdb files for the manuals are stored in this folder.
