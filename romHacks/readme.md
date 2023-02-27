@@ -39,3 +39,8 @@
   * Top Gear
   
 ## Other Hacks
+
+
+Compilation in archive.org
+https://ia902209.us.archive.org/view_archive.php?archive=/19/items/sfc-speedhacks/ROMs/Nintendo%20-%20Super%20Famicom%20-%20Speed%20Hacks%20%2817-02-2023%29.zip
+
