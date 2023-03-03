@@ -1,18 +1,18 @@
 # Vitor Vilella
 (GitHub) [https://github.com/VitorVilela7]
-    Fastrom:
+## Fastrom:
       * U.N. Squadron
       * Super Castlevania IV
       * F-Zero
       * Axelay
     
-    SA-Root
+## SA-Root
       * Contra III
       * Gradius III
       * Race Drivin'
       * Super R-Type
 
-    Misc
+## Misc
       SA-1 from restoration Hack:
         * Super Ghouls 'n' Ghosts
 
@@ -20,7 +20,7 @@
 # Kando 
 (Public patreon releases) [https://www.patreon.com/Kandowontu/posts]
 
-    ## Fastorms
+## Fastorms
       * Actriser
       * Aladdin (France)
       * BIO Metal (USA)
