@@ -1,6 +1,6 @@
 # Speed Hacks
 
-## Fastrom
+## FastROM
   Conversion from SlowROM to FastROM, to improve speed of the game.
   
 ## SA1-Hack
