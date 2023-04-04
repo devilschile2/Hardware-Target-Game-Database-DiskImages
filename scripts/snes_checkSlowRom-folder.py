@@ -2,7 +2,7 @@
 import os
 import struct
 
-def is_slow_rom(file_path):
+def is_slow_rom_sfc(file_path):
     with open(file_path, 'rb') as rom_file:
         # Read the first 16 bytes (the header)
         header = rom_file.read(16)
@@ -16,9 +16,9 @@ def is_slow_rom(file_path):
         else:
             return False
 
-def get_rom_type(file_path):
+def get_rom_type_sfc(file_path):
     with open(file_path, 'rb') as rom_file:
-        # Read the first 16 bytes (the header)
+        # Read the first 16 bytes (the heaFgeder)
         header = rom_file.read(16)
         print("header[16]:"+str(header))
         # Check the ROM type byte (offset 0x0C)
@@ -114,10 +114,12 @@ def check_roms_in_folder(folder_path):
             # Check if file is a .sfc or .smc file (SNES ROM)
             if file.endswith('.sfc') or file.endswith('.smc'):
                 file_path = os.path.join(root, file)
-                if is_slow_rom(file_path):
+                if is_slow_rom_sfc(file_path):
                     print(f'{file_path} is a slow ROM')
                 else:
                     print(f'{file_path} is a fast ROM')
+                romType, enhChip =get_rom_type_sfc(file_path)
+                print("RomType:"+romType+" enhancementChip:"+enhChip+" file_path:"+file_path)
 
 # Example usage
 check_roms_in_folder('path/to/folder')
