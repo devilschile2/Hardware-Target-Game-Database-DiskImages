@@ -27,8 +27,21 @@ Other sources:
 Feel free to suggest changes, to keep improving the accuracy of the info.
 
 
+on:
+  pull_request:
+    paths:
+      - '*/**.csv'
 
+jobs:
+  build:
+    name: Comment CSV as Pull-request Table
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Read CSV
+        id: csv
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./snes-cartridge-hardware.csv
 
-$ cat snes-cartridge-hardware.db
-
-$ cat nes-mappers.csv
