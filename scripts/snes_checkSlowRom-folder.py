@@ -52,6 +52,7 @@ def get_rom_type_sfc(file_path):
         rom_type = struct.unpack_from('B', header, 0x0C)[0]
         romType=None
         enhChip=None
+        battery=None
         
         # If the ROM type is 0x20, it's a slow ROM
         if rom_type == 0x20:
@@ -131,11 +132,36 @@ def get_rom_type_sfc(file_path):
             enhChip="SuperFx/GSU-2"
         else:
             print("This ROM file does not use any enhancement chips.")
-     return romType, enhChip
+            
+    
+    import binascii
+    # Open the SNES ROM file in binary mode
+    with open(file_path, "rb") as file:
+        # Read the first 512 bytes of the file
+        data = file.read(512)
+    
+        # Convert the data to a hexadecimal string
+        hex_data = binascii.hexlify(data)
+    
+        # Check for the presence of the battery-backed save feature
+        if b"204E454F505247" in hex_data:
+            print("Battery-backed save feature detected.")
+            battery=True
+        else:
+            print("No battery-backed save feature detected.")
+        return romType, enhChip, battery
     
     
     
 def check_roms_in_folder(folder_path):
+    import csv
+
+    # open the file in the write mode
+    f = open('snes_analysis_result.csv', 'w')
+
+    # create the csv writer
+    writer = csv.writer(f)
+    
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             # Check if file is a .sfc or .smc file (SNES ROM)
@@ -145,7 +171,13 @@ def check_roms_in_folder(folder_path):
                     print(f'{file_path} is a slow ROM')
                 else:
                     print(f'{file_path} is a fast ROM')
-                romType, enhChip =get_rom_type_sfc(file_path)
-                print("RomType:"+romType+" enhancementChip:"+enhChip+" file_path:"+file_path)
+                romType, enhChip, battery=get_rom_type_sfc(file_path)
+                 # write a row to the csv file
+                writer.writerow([file_path,romType,enhChip,battery])
+                print("RomType:"+romType+" enhancementChip:"+enhChip+" battery:"+battery+" file_path:"+file_path)
+        
+    # close the file
+    f.close()
+
 # Example usage
 check_roms_in_folder('path/to/folder')
