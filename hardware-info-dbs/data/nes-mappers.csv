@@ -10,7 +10,7 @@ BA58ED29,'89 Dennou Kyuusei Uranai,Japan,IPC-J1-01,Jingukan,HVC-SGROM,1
 E6A477B2,"3-D Battles of Worldrunner, The",USA,NES-WO-USA,Acclaim,NES-UNROM,2
 D91104F1,4-nin Uchi Mahjong,Japan,HVC-FJ,Nintendo,HVC-NROM-128,0
 4686C5DD,6 in 1,USA,CN-11,Caltron,MLT-CALTRON6IN1,41
-49F745E0,720°,USA,NES-72-USA,Mindscape,NES-SGROM,1
+49F745E0,720Â°,USA,NES-72-USA,Mindscape,NES-SGROM,1
 F8D53171,8 Eyes,Japan,KKS-8E (03),Seta,HVC-TLROM,4
 326AB3B6,8 Eyes,USA,NES-8E-USA,Taxan,NES-TLROM,4
 9C304DEC,A la poursuite de l'Octobre Rouge,France,NES-7H-FRA,Hi Tech Expressions,NES-TLROM,4
@@ -82,9 +82,9 @@ C1FBF659,Akumajou Special: Boku Dracula-kun,Japan,KON-RC847,Konami,KONAMI-VRC-4,
 41D32FD7,"Aladdin, Disney's",Scandinavia,NES-AJ-SCN,Virgin Games,NES-AOROM,7
 63E992AC,Alfred Chicken,USA,NES-AC-USA,Mindscape,NES-UNROM,2
 CBF4366F,Alien Syndrome,USA,TGN-009-AS,Tengen,TENGEN-800037,158
-C527C297,Alien³,USA,NES-X3-USA,LJN,ACCLAIM-MC-ACC,4
-DDC6D9C9,Alien³,France,NES-X3-FRA,LJN,NES-TLROM,4
-DDC6D9C9,Alien³,Germany,NES-X3-NOE,LJN,NES-TLROM,4
+C527C297,AlienÂ³,USA,NES-X3-USA,LJN,ACCLAIM-MC-ACC,4
+DDC6D9C9,AlienÂ³,France,NES-X3-FRA,LJN,NES-TLROM,4
+DDC6D9C9,AlienÂ³,Germany,NES-X3-NOE,LJN,NES-TLROM,4
 934DB14A,All-Pro Basketball,USA,NES-A2-USA,Vic Tokai,NES-SLROM,1
 DBF90772,Alpha Mission,USA,NES-AM-USA,SNK,NES-CNROM,3
 976893D2,Alpha Mission,Europe,NES-AM-EEC,SNK,NES-CNROM,3
@@ -118,8 +118,8 @@ E949EF8A,Astro Fang: Super Machine,Japan,WAV-E1-01,A Wave,HVC-TLROM,4
 054CB4EB,Astyanax,USA,NES-YX-USA,Jaleco,NES-TLROM,4
 B68F9814,Astyanax,Germany,NES-YX-NOE,Jaleco,NES-TLROM,4
 F27D4017,Astyanax,Spain,NES-YX-ESP,Jaleco,NES-TKEPROM,4
-ED77B453,Astérix,United Kingdom,NES-AX-UKV,Infogrames,NES-UNROM,2
-ED77B453,Astérix,Spain,NES-AX-ESP,Infogrames,NES-UNROM,2
+ED77B453,AstÃ©rix,United Kingdom,NES-AX-UKV,Infogrames,NES-UNROM,2
+ED77B453,AstÃ©rix,Spain,NES-AX-ESP,Infogrames,NES-UNROM,2
 8BCDE59A,Athena,Japan,SFX-AT,SNK,HVC-UNROM,2
 27DDF227,Athena,USA,NES-AN-USA,SNK,NES-UNROM,2
 1771EA8F,Athletic World,USA,NES-AW-USA,Bandai,NES-CNROM,3
@@ -196,7 +196,7 @@ B5FF71AB,Battle Fleet,Japan,NAM-FBF-5900,Namco,NAMCOT-163,19
 61A852EA,Battle Stadium: Senbatsu Pro Yakyuu,Japan,IGS-X8,IGS,HVC-SKROM,1
 "1,79769313486232E+308",Battle Storm,Japan,YZW-9Y,Party Room 21,HVC-SKROM,1
 90D68A43,"Battle Tank, Garry Kitchen's",USA,NES-9B-USA,Absolute,NES-CNROM,3
-6B53006A,"Battle of Olympus, The",USA,NES-AD-USA,Brøderbund,NES-SGROM,1
+6B53006A,"Battle of Olympus, The",USA,NES-AD-USA,BrÃ¸derbund,NES-SGROM,1
 A97567A4,"Battle of Olympus, The",Scandinavia,NES-AD-SCN,Nintendo,NES-SGROM,1
 A97567A4,"Battle of Olympus, The",Spain,NES-AD-ESP,Nintendo,NES-SGROM,1
 50CCC8ED,Battleship,USA,NES-BH-USA,Mindscape,NES-CNROM,3
@@ -456,7 +456,7 @@ E145B441,Day Dreamin' Davey,USA,NES-6D-USA,HAL Laboratory,NES-SLROM,1
 12748678,Days of Thunder,USA,NES-YH-USA,Mindscape,NES-TKEPROM,4
 FA73D3A2,Days of Thunder,Europe,NES-YH-EEC,Mindscape,NES-TLROM,4
 FA73D3A2,Days of Thunder,Spain,NES-YH-ESP,Mindscape,NES-TLROM,4
-C2730C30,Deadly Towers,USA,NES-DE-USA,Brøderbund,NES-BNROM,34
+C2730C30,Deadly Towers,USA,NES-DE-USA,BrÃ¸derbund,NES-BNROM,34
 5CAA3E61,Death Race,USA,AGCI-DR,AGCI,AGCI-50282,144
 BEE54426,Deathbots,USA,AVE-DB,AVE,AVE-MB-91,79
 73F7E5D8,Deep Dungeon III: Yuushi e no Tabi,Japan,SQF-UT,Square,HVC-SNROM,1
@@ -599,14 +599,14 @@ BD29178A,Dudes with Attitude,USA,AVE-DA,AVE,AVE-MB-91,79
 459D0C2A,Dungeon & Magic: Sword of the Element,Japan,NAT-DM,Natsume,HVC-SKROM,1
 D68A6F33,Dungeon Kid,Japan,BTC-7D,Bothtec (Quest),HVC-SNROM,1
 23C3FB2D,Dungeon Magic: Sword of the Elements,USA,NES-DM-USA,Taito,NES-SKROM,1
-38B590E4,Dusty Diamond's All-Star Softball,USA,NES-B7-USA,Brøderbund,NES-SLROM,1
+38B590E4,Dusty Diamond's All-Star Softball,USA,NES-B7-USA,BrÃ¸derbund,NES-SLROM,1
 34BB757B,Dynablaster,Germany,NES-49-FRG,Hudson Soft,NES-SNROM,1
 34BB757B,Dynablaster,Spain,NES-49-ESP,Hudson Soft,NES-SNROM,1
 0FF6A3B5,Dynamite Batman,Japan,SUN-DBT-6500,Sunsoft,SUNSOFT-FME-7,69
 9E66A66B,Dynamite Bowl,Japan,TFS-DL,Toemiland,HVC-CNROM,3
 BDE93999,Dynowarz: The Destruction of Spondylus,USA,NES-WZ-USA,Bandai,NES-SLROM,1
-43D01C10,Déjà Vu,USA,NES-DG-USA,Kemco,NES-TKROM,4
-39D43261,Déjà Vu,Sweden,NES-DG-SWE,Kemco,NES-TKROM,4
+43D01C10,DÃ©jÃ  Vu,USA,NES-DG-USA,Kemco,NES-TKROM,4
+39D43261,DÃ©jÃ  Vu,Sweden,NES-DG-SWE,Kemco,NES-TKROM,4
 77DCBBA3,Egger Land: Meikyuu no Fukkatsu,Japan,HAL-EG,HAL Laboratory,HVC-SFROM,1
 E1C03EB6,Egypt,Japan,HUM-E9,Human Entertainment,HVC-CNROM,3
 322C9F6A,El Destructor,Spain,CN-13,Gluk Video,NTDEC-N715062,3
@@ -851,7 +851,7 @@ DCEC4A59,Gremlins 2: The New Batch,USA,NES-2Z-USA,Sunsoft,NES-TKEPROM,4
 2B20B022,Gremlins 2: The New Batch,Europe,NES-2Z-EEC,Sunsoft,NES-TLROM,4
 2B20B022,Gremlins 2: The New Batch,France,NES-2Z-FRA,Sunsoft,NES-TLROM,4
 2B20B022,Gremlins 2: The New Batch,Germany,NES-2Z-FRG,Sunsoft,NES-TLROM,4
-FA43146B,"Guardian Legend, The",USA,NES-GD-USA,Brøderbund,NES-UNROM,2
+FA43146B,"Guardian Legend, The",USA,NES-GD-USA,BrÃ¸derbund,NES-UNROM,2
 FE907015,"Guardian Legend, The",Scandinavia,NES-GD-SCN,Nintendo,NES-UNROM,2
 FE907015,"Guardian Legend, The",Spain,NES-GD-ESP,Nintendo,NES-UNROM,2
 DAD88CC5,Guardic Gaiden,Japan,IF-08,Irem,IREM-UNROM,2
@@ -1150,7 +1150,7 @@ CEA35D5A,Kyuukyoku Harikiri Stadium,Japan,TFC-KHS-5500-18,Taito,TAITO-X1-005,80
 2BB3DABE,Kyuukyoku Harikiri Stadium III,Japan,TFC-KHIII-6900-34,Taito,TAITO-X1-017,82
 0BBF80CB,Kyuukyoku Harikiri Stadium: Heisei Gannen Ban,Japan,TFC-KHH-6800-25,Taito,TAITO-X1-017,82
 091ED5A9,Kyuukyoku Tiger,Japan,CBS-QT,CBS / Sony Group,HVC-TLROM,4
-89984244,"König der Löwen, Disney's Der",Germany,NES-KL-NOE,Virgin Games,NES-AOROM,7
+89984244,"KÃ¶nig der LÃ¶wen, Disney's Der",Germany,NES-KL-NOE,Virgin Games,NES-AOROM,7
 6396B988,L'Empereur,Japan,KOE-QV,Koei,HVC-ETROM,5
 9C18762B,L'Empereur,USA,NES-QV-USA,Koei,NES-ETROM,5
 638DBC52,La Guerra Del Golfo,Spain,CN-07,Gluk Video,NTDEC-TC-112,193
@@ -1164,7 +1164,7 @@ E353969F,"Last Ninja, The",USA,NES-J7-USA,Jaleco,NES-TLROM,4
 AE128FAC,Law of the West,Japan,PNF-LW (R53V5907),Pony Canyon,HVC-UNROM,2
 88E1A5F4,Lee Trevino's Fighting Golf,USA,NES-FI-USA,SNK,NES-SLROM,1
 9630A7E5,Lee Trevino's Fighting Golf,Europe,NES-FI-EEC,SNK,NES-SLROM,1
-F181C021,Legacy of the Wizard,USA,NES-LC-USA,Brøderbund,NES-TFROM,4
+F181C021,Legacy of the Wizard,USA,NES-LC-USA,BrÃ¸derbund,NES-TFROM,4
 BBED6E6E,"Legend of Kage, The",USA,NES-KA-USA,Taito,NES-CNROM,3
 FD7E9A7E,"Legend of Prince Valiant, The",France,NES-PX-FRA,Ocean,NES-SLROM,1
 FD7E9A7E,"Legend of Prince Valiant, The",Spain,NES-PX-ESP,Ocean,NES-SLROM,1
@@ -1200,7 +1200,7 @@ B5E392E2,Little Samson,USA,NES-LT-USA,Taito,NES-TLROM,4
 5B5AB1F8,Little Samson,Scandinavia,NES-LT-SCN,Taito,NES-TLROM,4
 5B5AB1F8,Little Samson,Spain,NES-LT-ESP,Taito,NES-TLROM,4
 0A3FC393,Lode Runner,Japan,HFC-LR,Hudson Soft,HVC-NROM-128,0
-AF5676DE,Lode Runner,USA,NES-LO-USA,Brøderbund,NES-NROM-128,0
+AF5676DE,Lode Runner,USA,NES-LO-USA,BrÃ¸derbund,NES-NROM-128,0
 23D17F5E,"Lone Ranger, The",USA,NES-6L-USA,Konami,NES-TLROM,4
 FD8D6C75,Loopz,USA,NES-L8-USA,Mindscape,NES-UNROM,2
 D0EB749F,"Lord of King, The",Japan,JF-25,Jaleco,JALECO-JF-25,18
@@ -1641,7 +1641,7 @@ BDE7A7B5,Rad Racket: Deluxe Tennis II,USA,AVE-RR,AVE,AVE-NINA-06,79
 332C47E0,Radia Senki: Reimei-hen,Japan,TCF-8R,Tecmo,HVC-TKROM,4
 61253D1C,Raid 2020,USA,CDR-RD-81003,Color Dreams,COLORDREAMS-74*377,11
 64C96F53,Raid on Bungeling Bay,Japan,HFC-RB,Hudson Soft,HVC-NROM-128,0
-D308D52C,Raid on Bungeling Bay,USA,NES-BU-USA,Brøderbund,NES-NROM-128,0
+D308D52C,Raid on Bungeling Bay,USA,NES-BU-USA,BrÃ¸derbund,NES-NROM-128,0
 9EA1DC76,Rainbow Islands,USA,NES-RL-USA,Taito,NES-UNROM,2
 FA704C86,Rainbow Islands: The Story of Bubble Bobble 2,Japan,DTF-RL (19),Taito,HVC-UNROM,2
 BE0E93C3,Rainbow Islands: The Story of Bubble Bobble 2,United Kingdom,NES-64-UKV,Ocean,NES-SLROM,1
@@ -1763,7 +1763,7 @@ F7B852E4,Sanrio Cup: Pon Pon Volley,Japan,CTS-PM,Character Soft,HVC-CNROM,3
 4C0E8BBB,Satomi Hakkenden,Japan,SFX-S8,SNK,HVC-SKROM,1
 2858933B,Satsui no Kaisou: Power Soft Satsujin Jiken,Japan,HAL-PB,HAL Laboratory,HVC-SNROM,1
 3B1A7EEF,Satsujin Club,Japan,KKS-RZ (05),Seta,HVC-TLROM,4
-4022C94E,"Schlümpfe, Die",Germany,NES-SF-NOE,Infogrames,NES-UNROM,2
+4022C94E,"SchlÃ¼mpfe, Die",Germany,NES-SF-NOE,Infogrames,NES-UNROM,2
 4022C94E,"Schtroumpfs, Les",France,NES-SF-FRA,Infogrames,NES-UNROM,2
 973BBF75,Secret Scout in the Temple of Demise,USA,CDR-ST-81024,Color Dreams,COLORDREAMS-74*377,11
 B4801882,Secret Ties,USA,UNR-S4-USA,Vic Tokai,HVC-TLROM,4
@@ -1900,7 +1900,7 @@ D9C093B1,Space Invaders,Japan,TFC-SI-4500-01,Taito,TAITO-NROM-128,0
 6058C65D,Spartan X,Japan,HVC-SX,Nintendo,HVC-NROM-256,0
 6F6686B0,Spartan X 2,Japan,IF-23,Irem,IREM-H3001,65
 636923BB,Spelunker,Japan,IF-03,Irem,IREM-NROM-256,0
-99D15A91,Spelunker,USA,NES-SU-USA,Brøderbund,NES-NROM-256,0
+99D15A91,Spelunker,USA,NES-SU-USA,BrÃ¸derbund,NES-NROM-256,0
 C37F225C,Spelunker II: Yuusha e no Chousen,Japan,IF-06,Irem,IREM-UNROM,2
 D679627A,Spider-Man: Return of the Sinister Six,USA,NES-RX-USA,LJN,ACCLAIM-MC-ACC,4
 ED3FA60E,Spider-Man: Return of the Sinister Six,Spain,NES-RX-ESP,LJN,NES-TLROM,4
@@ -2168,7 +2168,7 @@ DE8FD935,To The Earth,USA,NES-ZE-USA,Nintendo,NES-TEROM,4
 790B295B,To The Earth,Spain,NES-ZE-ESP,Nintendo,NES-TEROM,4
 7FB74A43,Toki,USA,NES-5J-USA,Taito,NES-TLROM,4
 C5CFE54E,Toki no Tabibito: Time Stranger,Japan,KSC-TS,Kemco,HVC-UNROM,2
-6776A977,Tokoro-san no Mamoru mo Semeru mo,Japan,ESF-TO/49·6R-1,Epic / Sony Records,HVC-CNROM,3
+6776A977,Tokoro-san no Mamoru mo Semeru mo,Japan,ESF-TO/49Â·6R-1,Epic / Sony Records,HVC-CNROM,3
 162CCBD0,Tokyo Pachi Slot Adventure,Japan,CDS-83,Coconuts,HVC-SLROM,1
 D63B30F5,Tom & Jerry,USA,NES-5Y-USA,Hi Tech Expressions,NES-TLROM,4
 B2781C19,Tom & Jerry,Scandinavia,NES-5Y-SCN,Hi Tech Expressions,NES-TLROM,4
@@ -2222,7 +2222,7 @@ CF26A149,Twin Eagle,USA,NES-2E-USA,Romstar,NES-UNROM,2
 3CF67AEC,Twin Eagle: Revenge Joe's Brother,Japan,VIS-2E,Visco,HVC-UNROM,2
 985B1D05,TwinBee,Japan,KON-RC807,Konami,KONAMI-74*139/74,87
 D7FABAC1,TwinBee 3: Poko Poko Dai Maou,Japan,KON-RC841,Konami,KONAMI-VRC-2,22
-B459EDC4,U-Force Power Games,USA,UNR-UX-USA,Brøderbund,NES-GNROM,66
+B459EDC4,U-Force Power Games,USA,UNR-UX-USA,BrÃ¸derbund,NES-GNROM,66
 4EC0FECC,U-four-ia: The Saga,Germany,NES-6U-NOE,Sunsoft,NES-TLROM,4
 4EC0FECC,U-four-ia: The Saga,Scandinavia,NES-6U-SCN,Sunsoft,NES-TLROM,4
 4EC0FECC,U-four-ia: The Saga,Spain,NES-6U-ESP,Sunsoft,NES-TLROM,4
@@ -2263,7 +2263,7 @@ C973699D,Vegas Dream,USA,NES-LS-USA,HAL Laboratory,NES-SKROM,1
 5E66EAEA,Videomation,USA,NES-V8-USA,THQ,NES-CPROM,13
 A8F5C2AB,Vindicators,USA,TGN-012-VN,Tengen,TENGEN-800030,206
 A9068D17,Virus,USA,NES-VU-USA,Nintendo,NES-NROM-256,0
-D6FE9826,Viva Las Vegas,Japan,ESF-LV/59·6R-2,Epic / Sony Records,HVC-SKROM,1
+D6FE9826,Viva Las Vegas,Japan,ESF-LV/59Â·6R-2,Epic / Sony Records,HVC-SKROM,1
 FDE14CCE,Volguard II,Japan,DBF-VL,dB-SOFT,HVC-NROM-256,0
 A23CB659,Volley Ball,Spain,MGC-010,Gluk Video,TXC-74*138/175,79
 27777635,Volleyball,USA,NES-VB-USA,Nintendo,NES-NROM-256,0
