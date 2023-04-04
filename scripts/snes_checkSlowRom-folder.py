@@ -170,8 +170,30 @@ def get_rom_type_sfc(file_path):
     
     return romType, enhChip, battery, lockout
     
+def detect_region():
+    import binascii
+    region="Unknown"
+    # Open the SNES SFC ROM file in binary mode
+    with open("filename.sfc", "rb") as file:
+        # Read the first 256 bytes of the file
+        data = file.read(256)
+        # Convert the data to a hexadecimal string
+        hex_data = binascii.hexlify(data)
     
-    
+        # Check for the presence of the region identifier
+        if b"08" in hex_data:
+            print("Region: Japan")
+            region="JP"
+        elif b"45" in hex_data:
+            print("Region: PAL")
+            region="EU"
+        elif b"55" in hex_data:
+            print("Region: USA/Canada")
+            region="US"
+        else:
+            print("Region: Unknown")
+        
+            
 def check_roms_in_folder(folder_path):
     import csv
 
