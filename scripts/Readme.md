@@ -49,3 +49,6 @@
   No user control is made so use it at your own risk.
   
   
+## Snes Rom Info
+
+[Snes memory map with rom types] (https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_memory_map)
