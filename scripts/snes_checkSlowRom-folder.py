@@ -145,6 +145,5 @@ def check_roms_in_folder(folder_path):
                     print(f'{file_path} is a fast ROM')
                 romType, enhChip =get_rom_type_sfc(file_path)
                 print("RomType:"+romType+" enhancementChip:"+enhChip+" file_path:"+file_path)
-
 # Example usage
 check_roms_in_folder('path/to/folder')
