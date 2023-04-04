@@ -16,6 +16,22 @@ def is_slow_rom_sfc(file_path):
         else:
             return False
 
+def detect_cic_lockout(file_path):
+    with open("filename.sfc", "rb") as file:
+        # Read the first 256 bytes of the file
+        data = file.read(256)
+
+        # Convert the data to a hexadecimal string
+        hex_data = binascii.hexlify(data)
+
+        # Check for the presence of a CIC region lockout chip
+        if b"20C2" in hex_data:
+            print("CIC region lockout chip detected.")
+            return True
+        else:
+            print("No CIC region lockout chip detected.")
+            return False
+            
 def get_rom_type_smc(file_path):
     if rom_data[0x7FD7] == 0x20:
          with open(file_path, 'rb') as rom_file:
@@ -149,7 +165,10 @@ def get_rom_type_sfc(file_path):
             battery=True
         else:
             print("No battery-backed save feature detected.")
-        return romType, enhChip, battery
+
+    lockout =detect_cic_lockout(file_path)
+    
+    return romType, enhChip, battery, lockout
     
     
     
@@ -171,10 +190,10 @@ def check_roms_in_folder(folder_path):
                     print(f'{file_path} is a slow ROM')
                 else:
                     print(f'{file_path} is a fast ROM')
-                romType, enhChip, battery=get_rom_type_sfc(file_path)
+                romType, enhChip, battery, cicLockout=get_rom_type_sfc(file_path)
                  # write a row to the csv file
-                writer.writerow([file_path,romType,enhChip,battery])
-                print("RomType:"+romType+" enhancementChip:"+enhChip+" battery:"+battery+" file_path:"+file_path)
+                writer.writerow([file_path,romType,enhChip,battery,cicLockout])
+                print(" file_path:"+file_path+"RomType:"+romType+" enhancementChip:"+enhChip+" battery:"+battery++" cicLockout:"+cicLockout)
         
     # close the file
     f.close()
