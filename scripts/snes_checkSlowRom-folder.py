@@ -35,6 +35,8 @@ def get_rom_type_smc(file_path):
                 romType="FastRom"
            elif rom_data[0x7FD5] == 0x25:
                 romType="ExLoROM"
+           elif rom_data[0x7FDB] ==0x32:
+                romType="ExHiROM"
            elif rom_data[0xFFD5] == 0x35:
                 romType="HiROM"
            else:
