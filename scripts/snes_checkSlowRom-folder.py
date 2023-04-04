@@ -16,6 +16,31 @@ def is_slow_rom_sfc(file_path):
         else:
             return False
 
+def get_rom_type_smc(file_path):
+    if rom_data[0x7FD7] == 0x20:
+         with open(file_path, 'rb') as rom_file:
+            # Read the first 16 bytes (the heaFgeder)
+            header = rom_file.read(16)
+            print("header[16]:"+str(header))
+            # Check the ROM type byte (offset 0x0C)
+            rom_type = struct.unpack_from('B', header, 0x0C)[0]
+            romType=None
+            enhChip=None
+         
+         with open(file_path, 'rb') as f: 
+           rom_data = f.read()
+           if rom_data[0x7FD7] == 0x20:
+                romType="SlowRom"
+           elif rom_data[0x7FD7] == 0x30:
+                romType="FastRom"
+           elif rom_data[0x7FD5] == 0x25:
+                romType="ExLoROM"
+           elif rom_data[0xFFD5] == 0x35:
+                romType="HiROM"
+           else:
+                romType="Unknown"
+    
+    
 def get_rom_type_sfc(file_path):
     with open(file_path, 'rb') as rom_file:
         # Read the first 16 bytes (the heaFgeder)
