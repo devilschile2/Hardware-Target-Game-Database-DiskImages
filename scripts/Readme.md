@@ -52,5 +52,7 @@
 ## Snes Rom Info
 
 [Snes memory map with rom types] (https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_memory_map)
+
 ## inestool
+Inestool has been converted to use python3
 [inestool] (https://github.com/dsedivec/inestool)
