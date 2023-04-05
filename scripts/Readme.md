@@ -52,3 +52,5 @@
 ## Snes Rom Info
 
 [Snes memory map with rom types] (https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_memory_map)
+## inestool
+[inestool] (https://github.com/dsedivec/inestool)
